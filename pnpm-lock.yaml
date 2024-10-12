@@ -28,6 +28,9 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
+      shared-ui:
+        specifier: workspace:^
+        version: link:../../packages/shared-ui
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.12.1
