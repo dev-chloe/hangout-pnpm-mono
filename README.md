@@ -61,6 +61,12 @@ Build all packages
 npx nx run-many --target=build
 ```
 
+Visualize Project Graph
+
+```bash
+npx nx graph
+```
+
 ## Reference
 
 [Setup a Monorepo with PNPM workspaces and speed it up with Nx!](https://dev.to/nx/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx-1eem)
