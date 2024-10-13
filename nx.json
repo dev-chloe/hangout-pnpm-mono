@@ -1,0 +1,25 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "test"]
+      }
+    }
+  },
+  "targetDefaults": {
+    "build": {
+      "inputs": ["noMarkdown", "^noMarkdown", "noIgrnores", "^noIgrnores"]
+    },
+    "test": {
+      "inputs": ["noMarkdown", "^noMarkdown", "noIgrnores", "^noIgrnores"]
+    }
+  },
+  "namedInputs": {
+    "noMarkdown": ["!{projectRoot}/**/*.md"],
+    "noIgrnores": [
+      "!{projectRoot}/**/.gitignore",
+      "!{projectRoot}/**/.dockerignore"
+    ]
+  }
+}
