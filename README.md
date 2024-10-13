@@ -64,7 +64,7 @@ npx nx run-many --target=build
 Visualize Project Graph
 
 ```bash
-npx nx graph
+pnpm dlx nx graph
 ```
 
 ## Reference
